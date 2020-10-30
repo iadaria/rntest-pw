@@ -163,9 +163,9 @@ export default function AppCard({
                                     keyboardType="decimal-pad"
                                     value={values.amount}
                                 />
-                                {(errors.error /* || errors.amount */) &&
+                                {(errors.error  || errors.amount ) &&
                                     <Text style={styles.error}>
-                                        {errors.error} {/* {errors.amount} */}
+                                        {errors.error} {errors.amount} 
                                     </Text>
                                 }
                             </Card.Content>
