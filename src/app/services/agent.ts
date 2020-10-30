@@ -3,8 +3,8 @@ import * as Toast from "../common/components/AppToast";
 import { IAuthResult,  ICreatedTransaction, IFilter, ITransactionFormValues,  ITransactions,  IUserForList,  IUserFormValues, IUserInfo } from "../models/models";
 import AsyncStorage from '@react-native-community/async-storage';
 
-axios.defaults.baseURL = 'http://192.168.1.82:3001';
-//axios.defaults.baseURL = 'https://rntest.iadaria.best';
+//axios.defaults.baseURL = 'http://192.168.1.82:3001';
+axios.defaults.baseURL = 'https://rntest.iadaria.best';
 axios.defaults.timeout = 5000;
 axios.defaults.timeoutErrorMessage = "Network Error";
 
