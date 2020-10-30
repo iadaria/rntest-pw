@@ -15,7 +15,7 @@ import { ParamListBase } from '@react-navigation/native';
 
 interface IError {
     auth?: string;
-}
+} 
 
 export default function LoginScreen(
     { navigation } : { navigation: StackNavigationProp<ParamListBase> }
