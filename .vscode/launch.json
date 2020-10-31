@@ -5,6 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Run iOS",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "enableDebug": false
+        },
+        {
+            "name": "Debug iOS",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios"
+        },
+        {
             "name": "Debug Android",
             "cwd": "${workspaceFolder}",
             "type": "reactnative",

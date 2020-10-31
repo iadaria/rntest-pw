@@ -69,6 +69,7 @@ export default function LoginScreen(
                                 onChangeText={handleChange('email')}
                                 onBlur={handleBlur('email')}
                                 value={values.email}
+                                autoCapitalize="none"
                             />
                             {errors.email && touched.email &&
                                 <Text style={styles.error}>
@@ -84,6 +85,7 @@ export default function LoginScreen(
                                 onBlur={handleBlur('password')}
                                 value={values.password}
                                 secureTextEntry={true}
+                                autoCapitalize="none"
                             />
                             {errors.password && touched.password &&
                                 <Text style={styles.error}>

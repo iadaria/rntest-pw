@@ -68,6 +68,7 @@ export default function RegisterScreen(
                                 onChangeText={handleChange('username')}
                                 onBlur={handleBlur('username')}
                                 value={values.username}
+                                autoCapitalize="none"
                             />
                             {errors.username && touched.username &&
                                 <Text style={styles.error}>
@@ -81,6 +82,7 @@ export default function RegisterScreen(
                                 onChangeText={handleChange('email')}
                                 onBlur={handleBlur('email')}
                                 value={values.email}
+                                autoCapitalize="none"
                             />
                             {errors.email && touched.email &&
                                 <Text style={styles.error}>
@@ -96,6 +98,7 @@ export default function RegisterScreen(
                                 onBlur={handleBlur('password')}
                                 value={values.password}
                                 secureTextEntry={true}
+                                autoCapitalize="none"
                             />
                             {errors.password && touched.password &&
                                 <Text style={styles.error}>

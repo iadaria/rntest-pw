@@ -45,12 +45,13 @@ export default function TransactionsScreen() {
                     autoCorrect={false}
                     onChangeText={setSearchUsername}
                     value={searchUsername}
+                    autoCapitalize="none"
                 />
 
                 <IconButton 
                     onPress={() => {
                         setToggle(!toggle);
-                        setFilterDecrease(toggle === false ? -1 : 1);
+                        setFilterDecrease(toggle === false ? 1 : -1);
                     }}
                     icon={filterDecrease === -1 ? "arrow-up-bold" : "arrow-down-bold"}
                     color="green"

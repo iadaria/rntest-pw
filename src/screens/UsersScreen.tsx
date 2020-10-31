@@ -47,6 +47,7 @@ export default function UsersScreen() {
                     autoCorrect={false}
                     onChangeText={setSearchUsername}
                     value={searchUsername}
+                    autoCapitalize="none"
                 />
 
                 <IconButton 

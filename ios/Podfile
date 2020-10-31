@@ -1,6 +1,9 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+#use_frameworks!
+pod 'RNInputMask', :path => '../node_modules/react-native-text-input-mask/ios/InputMask'
+
 platform :ios, '10.0'
 
 target 'pw_app' do
