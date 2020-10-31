@@ -4,3 +4,7 @@
 
 ## Apk file
 https://drive.google.com/file/d/1SSQGWj3Mr0XSpNQIz_m_JGeMWY4AnKlW/view?usp=sharing
+
+## Api url
+
+https://rntest.iadaria.best
