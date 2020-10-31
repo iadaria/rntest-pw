@@ -1,3 +1,3 @@
 ## Test task
 
-![rntest-pw-android](https://user-images.githubusercontent.com/24623568/97779904-93137d00-1bc4-11eb-8297-8e1f96738605.gif)
+![rntest-pw-android](https://user-images.githubusercontent.com/24623568/97779956-e4237100-1bc4-11eb-84b5-c8e5b7c780c4.gif)
