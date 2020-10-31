@@ -3,6 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 #use_frameworks!
 pod 'RNInputMask', :path => '../node_modules/react-native-text-input-mask/ios/InputMask'
+pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
 platform :ios, '10.0'
 
