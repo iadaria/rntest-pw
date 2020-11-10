@@ -1,5 +1,6 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
+import { Platform } from 'react-native';
 import { ActivityIndicator } from 'react-native-paper';
 import { useSelector } from "react-redux";
 import { IAsyncState } from '../../features/async/asyncReducer';
@@ -25,7 +26,7 @@ export default function MainMenu({ authenticated }: IProps) {
     return (
         <Main.Navigator
             screenOptions={{
-                headerStatusBarHeight: 0,
+                //headerStatusBarHeight: 0,
                 headerRight: (props) => null
 
             }}
